@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B303DF3177047EB00C43170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF2177047EB00C43170 /* UIKit.framework */; };
+		9B303DF5177047EB00C43170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF4177047EB00C43170 /* Foundation.framework */; };
+		9B303DF7177047EB00C43170 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF6177047EB00C43170 /* CoreGraphics.framework */; };
+		9B303DFD177047EB00C43170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B303DFB177047EB00C43170 /* InfoPlist.strings */; };
+		9B303DFF177047EB00C43170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303DFE177047EB00C43170 /* main.m */; };
+		9B303E03177047EB00C43170 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E02177047EB00C43170 /* SPAppDelegate.m */; };
+		9B303E05177047EB00C43170 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E04177047EB00C43170 /* Default.png */; };
+		9B303E07177047EB00C43170 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E06177047EB00C43170 /* Default@2x.png */; };
+		9B303E09177047EB00C43170 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E08177047EB00C43170 /* Default-568h@2x.png */; };
+		9B303E0C177047EB00C43170 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E0B177047EB00C43170 /* SPViewController.m */; };
+		9B303E0F177047EB00C43170 /* SPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */; };
+		9B303E12177047EB00C43170 /* SPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E10177047EB00C43170 /* SPViewController_iPad.xib */; };
+		9B303E1A177047EB00C43170 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303E19177047EB00C43170 /* SenTestingKit.framework */; };
+		9B303E1B177047EB00C43170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF2177047EB00C43170 /* UIKit.framework */; };
+		9B303E1C177047EB00C43170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF4177047EB00C43170 /* Foundation.framework */; };
+		9B303E24177047EB00C43170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E22177047EB00C43170 /* InfoPlist.strings */; };
+		9B303E27177047EB00C43170 /* SPThanksViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B303E1D177047EB00C43170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B303DE7177047EB00C43170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B303DEE177047EB00C43170;
+			remoteInfo = SPThanksViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B303DEF177047EB00C43170 /* SPThanksViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPThanksViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B303DF2177047EB00C43170 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B303DF4177047EB00C43170 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B303DF6177047EB00C43170 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B303DFA177047EB00C43170 /* SPThanksViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPThanksViewController-Info.plist"; sourceTree = "<group>"; };
+		9B303DFC177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B303DFE177047EB00C43170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B303E00177047EB00C43170 /* SPThanksViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPThanksViewController-Prefix.pch"; sourceTree = "<group>"; };
+		9B303E01177047EB00C43170 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		9B303E02177047EB00C43170 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		9B303E04177047EB00C43170 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B303E06177047EB00C43170 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B303E08177047EB00C43170 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B303E0A177047EB00C43170 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		9B303E0B177047EB00C43170 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		9B303E0E177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController_iPhone.xib; sourceTree = "<group>"; };
+		9B303E11177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController_iPad.xib; sourceTree = "<group>"; };
+		9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPThanksViewControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B303E19177047EB00C43170 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B303E21177047EB00C43170 /* SPThanksViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPThanksViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		9B303E23177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B303E25177047EB00C43170 /* SPThanksViewControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPThanksViewControllerTests.h; sourceTree = "<group>"; };
+		9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPThanksViewControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B303DEC177047EB00C43170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303DF3177047EB00C43170 /* UIKit.framework in Frameworks */,
+				9B303DF5177047EB00C43170 /* Foundation.framework in Frameworks */,
+				9B303DF7177047EB00C43170 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B303E14177047EB00C43170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303E1A177047EB00C43170 /* SenTestingKit.framework in Frameworks */,
+				9B303E1B177047EB00C43170 /* UIKit.framework in Frameworks */,
+				9B303E1C177047EB00C43170 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B303DE6177047EB00C43170 = {
+			isa = PBXGroup;
+			children = (
+				9B303DF8177047EB00C43170 /* SPThanksViewController */,
+				9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */,
+				9B303DF1177047EB00C43170 /* Frameworks */,
+				9B303DF0177047EB00C43170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B303DF0177047EB00C43170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B303DEF177047EB00C43170 /* SPThanksViewController.app */,
+				9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B303DF1177047EB00C43170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B303DF2177047EB00C43170 /* UIKit.framework */,
+				9B303DF4177047EB00C43170 /* Foundation.framework */,
+				9B303DF6177047EB00C43170 /* CoreGraphics.framework */,
+				9B303E19177047EB00C43170 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B303DF8177047EB00C43170 /* SPThanksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B303E01177047EB00C43170 /* SPAppDelegate.h */,
+				9B303E02177047EB00C43170 /* SPAppDelegate.m */,
+				9B303E0A177047EB00C43170 /* SPViewController.h */,
+				9B303E0B177047EB00C43170 /* SPViewController.m */,
+				9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */,
+				9B303E10177047EB00C43170 /* SPViewController_iPad.xib */,
+				9B303DF9177047EB00C43170 /* Supporting Files */,
+			);
+			path = SPThanksViewController;
+			sourceTree = "<group>";
+		};
+		9B303DF9177047EB00C43170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B303DFA177047EB00C43170 /* SPThanksViewController-Info.plist */,
+				9B303DFB177047EB00C43170 /* InfoPlist.strings */,
+				9B303DFE177047EB00C43170 /* main.m */,
+				9B303E00177047EB00C43170 /* SPThanksViewController-Prefix.pch */,
+				9B303E04177047EB00C43170 /* Default.png */,
+				9B303E06177047EB00C43170 /* Default@2x.png */,
+				9B303E08177047EB00C43170 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B303E25177047EB00C43170 /* SPThanksViewControllerTests.h */,
+				9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */,
+				9B303E20177047EB00C43170 /* Supporting Files */,
+			);
+			path = SPThanksViewControllerTests;
+			sourceTree = "<group>";
+		};
+		9B303E20177047EB00C43170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B303E21177047EB00C43170 /* SPThanksViewControllerTests-Info.plist */,
+				9B303E22177047EB00C43170 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B303DEE177047EB00C43170 /* SPThanksViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B303E2A177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewController" */;
+			buildPhases = (
+				9B303DEB177047EB00C43170 /* Sources */,
+				9B303DEC177047EB00C43170 /* Frameworks */,
+				9B303DED177047EB00C43170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPThanksViewController;
+			productName = SPThanksViewController;
+			productReference = 9B303DEF177047EB00C43170 /* SPThanksViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B303E17177047EB00C43170 /* SPThanksViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B303E2D177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewControllerTests" */;
+			buildPhases = (
+				9B303E13177047EB00C43170 /* Sources */,
+				9B303E14177047EB00C43170 /* Frameworks */,
+				9B303E15177047EB00C43170 /* Resources */,
+				9B303E16177047EB00C43170 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B303E1E177047EB00C43170 /* PBXTargetDependency */,
+			);
+			name = SPThanksViewControllerTests;
+			productName = SPThanksViewControllerTests;
+			productReference = 9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B303DE7177047EB00C43170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tatsuya Tobioka";
+			};
+			buildConfigurationList = 9B303DEA177047EB00C43170 /* Build configuration list for PBXProject "SPThanksViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B303DE6177047EB00C43170;
+			productRefGroup = 9B303DF0177047EB00C43170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B303DEE177047EB00C43170 /* SPThanksViewController */,
+				9B303E17177047EB00C43170 /* SPThanksViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B303DED177047EB00C43170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303DFD177047EB00C43170 /* InfoPlist.strings in Resources */,
+				9B303E05177047EB00C43170 /* Default.png in Resources */,
+				9B303E07177047EB00C43170 /* Default@2x.png in Resources */,
+				9B303E09177047EB00C43170 /* Default-568h@2x.png in Resources */,
+				9B303E0F177047EB00C43170 /* SPViewController_iPhone.xib in Resources */,
+				9B303E12177047EB00C43170 /* SPViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B303E15177047EB00C43170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303E24177047EB00C43170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B303E16177047EB00C43170 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B303DEB177047EB00C43170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303DFF177047EB00C43170 /* main.m in Sources */,
+				9B303E03177047EB00C43170 /* SPAppDelegate.m in Sources */,
+				9B303E0C177047EB00C43170 /* SPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B303E13177047EB00C43170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303E27177047EB00C43170 /* SPThanksViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B303E1E177047EB00C43170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B303DEE177047EB00C43170 /* SPThanksViewController */;
+			targetProxy = 9B303E1D177047EB00C43170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B303DFB177047EB00C43170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B303DFC177047EB00C43170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B303E0E177047EB00C43170 /* en */,
+			);
+			name = SPViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9B303E10177047EB00C43170 /* SPViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B303E11177047EB00C43170 /* en */,
+			);
+			name = SPViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		9B303E22177047EB00C43170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B303E23177047EB00C43170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B303E28177047EB00C43170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B303E29177047EB00C43170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B303E2B177047EB00C43170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewController/SPThanksViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B303E2C177047EB00C43170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewController/SPThanksViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B303E2E177047EB00C43170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPThanksViewController.app/SPThanksViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewControllerTests/SPThanksViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B303E2F177047EB00C43170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPThanksViewController.app/SPThanksViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewControllerTests/SPThanksViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B303DEA177047EB00C43170 /* Build configuration list for PBXProject "SPThanksViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B303E28177047EB00C43170 /* Debug */,
+				9B303E29177047EB00C43170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B303E2A177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B303E2B177047EB00C43170 /* Debug */,
+				9B303E2C177047EB00C43170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B303E2D177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B303E2E177047EB00C43170 /* Debug */,
+				9B303E2F177047EB00C43170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B303DE7177047EB00C43170 /* Project object */;
+}
