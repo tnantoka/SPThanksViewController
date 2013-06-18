@@ -17,13 +17,15 @@
 		9B303E07177047EB00C43170 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E06177047EB00C43170 /* Default@2x.png */; };
 		9B303E09177047EB00C43170 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E08177047EB00C43170 /* Default-568h@2x.png */; };
 		9B303E0C177047EB00C43170 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E0B177047EB00C43170 /* SPViewController.m */; };
-		9B303E0F177047EB00C43170 /* SPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */; };
-		9B303E12177047EB00C43170 /* SPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E10177047EB00C43170 /* SPViewController_iPad.xib */; };
 		9B303E1A177047EB00C43170 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303E19177047EB00C43170 /* SenTestingKit.framework */; };
 		9B303E1B177047EB00C43170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF2177047EB00C43170 /* UIKit.framework */; };
 		9B303E1C177047EB00C43170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF4177047EB00C43170 /* Foundation.framework */; };
 		9B303E24177047EB00C43170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E22177047EB00C43170 /* InfoPlist.strings */; };
-		9B303E27177047EB00C43170 /* SPThanksViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */; };
+		9B303E33177048D000C43170 /* SPThanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E32177048D000C43170 /* SPThanksViewController.m */; };
+		9B303E361770810B00C43170 /* podfile-info.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E351770810B00C43170 /* podfile-info.md */; };
+		9B303E391770817100C43170 /* SPMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E381770817100C43170 /* SPMarkdownParser.m */; };
+		9B303E3C17708BBE00C43170 /* SPMarkdonwParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */; };
+		C91328ADF98140EFA7224DBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E636F12FF7C64125BDA19B10 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88B2C5BAEB4248869BB8EAB8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		9B303DEF177047EB00C43170 /* SPThanksViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPThanksViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B303DF2177047EB00C43170 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B303DF4177047EB00C43170 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,14 +55,18 @@
 		9B303E08177047EB00C43170 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9B303E0A177047EB00C43170 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
 		9B303E0B177047EB00C43170 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
-		9B303E0E177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController_iPhone.xib; sourceTree = "<group>"; };
-		9B303E11177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPViewController_iPad.xib; sourceTree = "<group>"; };
 		9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPThanksViewControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B303E19177047EB00C43170 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9B303E21177047EB00C43170 /* SPThanksViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPThanksViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		9B303E23177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B303E25177047EB00C43170 /* SPThanksViewControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPThanksViewControllerTests.h; sourceTree = "<group>"; };
-		9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPThanksViewControllerTests.m; sourceTree = "<group>"; };
+		9B303E31177048D000C43170 /* SPThanksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPThanksViewController.h; sourceTree = "<group>"; };
+		9B303E32177048D000C43170 /* SPThanksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPThanksViewController.m; sourceTree = "<group>"; };
+		9B303E351770810B00C43170 /* podfile-info.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "podfile-info.md"; sourceTree = "<group>"; };
+		9B303E371770817100C43170 /* SPMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarkdownParser.h; sourceTree = "<group>"; };
+		9B303E381770817100C43170 /* SPMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarkdownParser.m; sourceTree = "<group>"; };
+		9B303E3A17708BBE00C43170 /* SPMarkdonwParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarkdonwParserTests.h; sourceTree = "<group>"; };
+		9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarkdonwParserTests.m; sourceTree = "<group>"; };
+		E636F12FF7C64125BDA19B10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +77,7 @@
 				9B303DF3177047EB00C43170 /* UIKit.framework in Frameworks */,
 				9B303DF5177047EB00C43170 /* Foundation.framework in Frameworks */,
 				9B303DF7177047EB00C43170 /* CoreGraphics.framework in Frameworks */,
+				C91328ADF98140EFA7224DBE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +97,13 @@
 		9B303DE6177047EB00C43170 = {
 			isa = PBXGroup;
 			children = (
+				9B303E30177048B600C43170 /* Classes */,
+				9B303E3417707B7D00C43170 /* Resources */,
 				9B303DF8177047EB00C43170 /* SPThanksViewController */,
 				9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */,
 				9B303DF1177047EB00C43170 /* Frameworks */,
 				9B303DF0177047EB00C43170 /* Products */,
+				88B2C5BAEB4248869BB8EAB8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +123,7 @@
 				9B303DF4177047EB00C43170 /* Foundation.framework */,
 				9B303DF6177047EB00C43170 /* CoreGraphics.framework */,
 				9B303E19177047EB00C43170 /* SenTestingKit.framework */,
+				E636F12FF7C64125BDA19B10 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,8 +135,6 @@
 				9B303E02177047EB00C43170 /* SPAppDelegate.m */,
 				9B303E0A177047EB00C43170 /* SPViewController.h */,
 				9B303E0B177047EB00C43170 /* SPViewController.m */,
-				9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */,
-				9B303E10177047EB00C43170 /* SPViewController_iPad.xib */,
 				9B303DF9177047EB00C43170 /* Supporting Files */,
 			);
 			path = SPThanksViewController;
@@ -147,8 +157,8 @@
 		9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				9B303E25177047EB00C43170 /* SPThanksViewControllerTests.h */,
-				9B303E26177047EB00C43170 /* SPThanksViewControllerTests.m */,
+				9B303E3A17708BBE00C43170 /* SPMarkdonwParserTests.h */,
+				9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */,
 				9B303E20177047EB00C43170 /* Supporting Files */,
 			);
 			path = SPThanksViewControllerTests;
@@ -163,6 +173,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9B303E30177048B600C43170 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B303E31177048D000C43170 /* SPThanksViewController.h */,
+				9B303E32177048D000C43170 /* SPThanksViewController.m */,
+				9B303E371770817100C43170 /* SPMarkdownParser.h */,
+				9B303E381770817100C43170 /* SPMarkdownParser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B303E3417707B7D00C43170 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B303E351770810B00C43170 /* podfile-info.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B303E2A177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewController" */;
 			buildPhases = (
+				16A986ECE12E4E3D954188A2 /* Check Pods Manifest.lock */,
 				9B303DEB177047EB00C43170 /* Sources */,
 				9B303DEC177047EB00C43170 /* Frameworks */,
 				9B303DED177047EB00C43170 /* Resources */,
+				FCFD608223B048549D200B00 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +270,7 @@
 				9B303E05177047EB00C43170 /* Default.png in Resources */,
 				9B303E07177047EB00C43170 /* Default@2x.png in Resources */,
 				9B303E09177047EB00C43170 /* Default-568h@2x.png in Resources */,
-				9B303E0F177047EB00C43170 /* SPViewController_iPhone.xib in Resources */,
-				9B303E12177047EB00C43170 /* SPViewController_iPad.xib in Resources */,
+				9B303E361770810B00C43170 /* podfile-info.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +285,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16A986ECE12E4E3D954188A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		9B303E16177047EB00C43170 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +312,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		FCFD608223B048549D200B00 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,6 +336,8 @@
 				9B303DFF177047EB00C43170 /* main.m in Sources */,
 				9B303E03177047EB00C43170 /* SPAppDelegate.m in Sources */,
 				9B303E0C177047EB00C43170 /* SPViewController.m in Sources */,
+				9B303E33177048D000C43170 /* SPThanksViewController.m in Sources */,
+				9B303E391770817100C43170 /* SPMarkdownParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B303E27177047EB00C43170 /* SPThanksViewControllerTests.m in Sources */,
+				9B303E3C17708BBE00C43170 /* SPMarkdonwParserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +366,6 @@
 				9B303DFC177047EB00C43170 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9B303E0D177047EB00C43170 /* SPViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B303E0E177047EB00C43170 /* en */,
-			);
-			name = SPViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		9B303E10177047EB00C43170 /* SPViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B303E11177047EB00C43170 /* en */,
-			);
-			name = SPViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		9B303E22177047EB00C43170 /* InfoPlist.strings */ = {
@@ -395,10 +439,12 @@
 		};
 		9B303E2B177047EB00C43170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B2C5BAEB4248869BB8EAB8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
 				INFOPLIST_FILE = "SPThanksViewController/SPThanksViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +452,12 @@
 		};
 		9B303E2C177047EB00C43170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B2C5BAEB4248869BB8EAB8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPThanksViewController/SPThanksViewController-Prefix.pch";
 				INFOPLIST_FILE = "SPThanksViewController/SPThanksViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +516,7 @@
 				9B303E2C177047EB00C43170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B303E2D177047EB00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +525,7 @@
 				9B303E2F177047EB00C43170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
