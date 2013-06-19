@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SPThanksViewController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Special thanks view with podfile-info."
   s.homepage     = "https://github.com/tnantoka/SPThanksViewController"
   s.license      = 'MIT'

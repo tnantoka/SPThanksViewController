@@ -4,5 +4,5 @@ pod 'Appirater'
 pod 'SVProgressHUD'
 pod 'WCAlertView'
 
-#pod 'SPThanksViewController', path: '..'
-pod 'SPThanksViewController', git: 'https://github.com/tnantoka/SPThanksViewController.git'
+pod 'SPThanksViewController', path: '..'
+#pod 'SPThanksViewController', git: 'https://github.com/tnantoka/SPThanksViewController.git'

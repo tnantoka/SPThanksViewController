@@ -13,5 +13,6 @@
 @property (nonatomic) NSArray *pods;
 @property (nonatomic, weak) UITableView *tableView;
 @property (nonatomic) UINavigationController *navController;
+@property (nonatomic) NSString *filename;
 
 @end

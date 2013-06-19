@@ -25,6 +25,7 @@
         // Custom initialization
         self.title = NSLocalizedString(@"Thanks", nil);
         self.navController = [[UINavigationController alloc] initWithRootViewController:self];
+        self.filename = @"podfile-info.md";
         _navController.modalPresentationStyle = UIModalPresentationFormSheet;
     }
     return self;
@@ -36,7 +37,7 @@
 	// Do any additional setup after loading the view.
     
     // test
-    NSString *markdown = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"podfile-info.md" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
+    NSString *markdown = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:_filename ofType:nil] encoding:NSUTF8StringEncoding error:nil];
     self.pods = [[SPMarkdownParser shared] parse:markdown];
     
     // Close button for modal

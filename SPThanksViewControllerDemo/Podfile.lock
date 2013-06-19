@@ -10,18 +10,18 @@ PODS:
 
 DEPENDENCIES:
   - Appirater
-  - SPThanksViewController (from `https://github.com/tnantoka/SPThanksViewController.git`)
+  - SPThanksViewController (from `..`)
   - SVProgressHUD
   - WCAlertView
 
 EXTERNAL SOURCES:
   SPThanksViewController:
-    :git: https://github.com/tnantoka/SPThanksViewController.git
+    :path: ..
 
 SPEC CHECKSUMS:
   Appirater: 1c146af7b0ef3e2114a17db2e185f94367f63a99
   Nimbus: 3cab0289af9fab0674a95c0d161c223bd47697c6
-  SPThanksViewController: 4d3dbe5c47834a64e625f2ca66c0886de70fb5a5
+  SPThanksViewController: 05a9f122c1957cbf04364eef716a26793774f11a
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   WCAlertView: 940e47509875d85cc42abedafc41d310007f9174
 
