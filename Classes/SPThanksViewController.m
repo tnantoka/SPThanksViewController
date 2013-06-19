@@ -25,6 +25,7 @@
         // Custom initialization
         self.title = NSLocalizedString(@"Thanks", nil);
         self.navController = [[UINavigationController alloc] initWithRootViewController:self];
+        _navController.modalPresentationStyle = UIModalPresentationFormSheet;
     }
     return self;
 }

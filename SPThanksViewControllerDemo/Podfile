@@ -1,0 +1,7 @@
+platform :ios, '5.0'
+
+pod 'Appirater'
+pod 'SVProgressHUD'
+pod 'WCAlertView'
+
+pod 'SPThanksViewController', path: '..'

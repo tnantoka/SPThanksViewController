@@ -1,6 +1,6 @@
 //
 //  SPViewController.m
-//  SPThanksViewController
+//  SPThanksViewControllerDemo
 //
 //  Created by Tatsuya Tobioka on 13/06/18.
 //  Copyright (c) 2013年 Tatsuya Tobioka. All rights reserved.
@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"SPThanks Demo";
     
     self.view.backgroundColor = UIColor.whiteColor;
     
@@ -57,6 +59,4 @@
     SPThanksViewController *thanksController = SPThanksViewController.new;
     [self.navigationController pushViewController:thanksController animated:YES];
 }
-
-
 @end

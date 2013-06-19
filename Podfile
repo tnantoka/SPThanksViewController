@@ -1,4 +1,3 @@
 platform :ios, '5.0'
 
-#pod 'Nimbus/WebController'
-pod 'Nimbus'
+pod 'Nimbus/WebController'
