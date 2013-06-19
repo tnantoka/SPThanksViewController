@@ -25,6 +25,7 @@ Special thanks view with podfile-info.
 ### Add podfile-info to your project
     # Create
 	$ pod podfile-info --all --md > podfile-info.md
+    # Add 'podfile-info.md' to project.
 	
 	# Update
 	$ pod podfile-info --all --md > path/to/podfile-info.md
