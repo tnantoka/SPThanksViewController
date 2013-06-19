@@ -55,7 +55,9 @@
          @"summary": summary,
          }];
     }
-    return pods;
+
+    NSSortDescriptor *desc = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    return [pods sortedArrayUsingDescriptors:@[desc]];
 }
 
 @end

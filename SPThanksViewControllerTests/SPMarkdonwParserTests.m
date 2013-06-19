@@ -31,41 +31,46 @@
 
 - (void)testParse
 {
-    NSString *markdown = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"podfile-info.md" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
+    NSString *markdown =
+    @"* [WCAlertView](https://github.com/m1entus/WCAlertView) - WCAlertView is deliverd from UIAlertView. It's support color customization and blocks.\n"
+    @"* [Appirater](http://arashpayan.com/blog/2009/09/07/presenting-appirater/) - A utility that reminds your iPhone app's users to review the app.\n"
+    @"* [SVProgressHUD](http://samvermette.com/199) - A clean and lightweight progress HUD for your iOS app.\n";
+        
+    [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"podfile-info.md" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
     NSArray *pods = [[SPMarkdownParser shared] parse:markdown];
         
-    STAssertEqualObjects(@"Nimbus", pods[0][@"name"], nil);
-    STAssertEqualObjects(@"http://docs.nimbuskit.info/index.html", pods[0][@"homepage"], nil);
-    STAssertEqualObjects(@"An iOS framework whose growth is bounded by O(documentation).", pods[0][@"summary"], nil);
+    STAssertEqualObjects(@"Appirater", pods[0][@"name"], nil);
+    STAssertEqualObjects(@"http://arashpayan.com/blog/2009/09/07/presenting-appirater/", pods[0][@"homepage"], nil);
+    STAssertEqualObjects(@"A utility that reminds your iPhone app's users to review the app.", pods[0][@"summary"], nil);
     
-    STAssertEqualObjects(@"AFNetworking", pods[1][@"name"], nil);
-    STAssertEqualObjects(@"https://github.com/AFNetworking/AFNetworking", pods[1][@"homepage"], nil);
-    STAssertEqualObjects(@"A delightful iOS and OS X networking framework.", pods[1][@"summary"], nil);
+    STAssertEqualObjects(@"SVProgressHUD", pods[1][@"name"], nil);
+    STAssertEqualObjects(@"http://samvermette.com/199", pods[1][@"homepage"], nil);
+    STAssertEqualObjects(@"A clean and lightweight progress HUD for your iOS app.", pods[1][@"summary"], nil);
     
-    STAssertEqualObjects(@"JSONKit", pods[2][@"name"], nil);
-    STAssertEqualObjects(@"https://github.com/johnezang/JSONKit", pods[2][@"homepage"], nil);
-    STAssertEqualObjects(@"A Very High Performance Objective-C JSON Library.", pods[2][@"summary"], nil);
+    STAssertEqualObjects(@"WCAlertView", pods[2][@"name"], nil);
+    STAssertEqualObjects(@"https://github.com/m1entus/WCAlertView", pods[2][@"homepage"], nil);
+    STAssertEqualObjects(@"WCAlertView is deliverd from UIAlertView. It's support color customization and blocks.", pods[2][@"summary"], nil);
 }
 
 - (void)testParseWithBlank
 {
     NSString *markdown =
-    @"* [](http://docs.nimbuskit.info/index.html) - An iOS framework whose growth is bounded by O(documentation).\n"
-    @"* [AFNetworking]() - A delightful iOS and OS X networking framework.\n"
-    @"* [JSONKit](https://github.com/johnezang/JSONKit) - \n";
+    @"* [WCAlertView](https://github.com/m1entus/WCAlertView) - \n"
+    @"* [](http://arashpayan.com/blog/2009/09/07/presenting-appirater/) - A utility that reminds your iPhone app's users to review the app.\n"
+    @"* [SVProgressHUD]() - A clean and lightweight progress HUD for your iOS app.\n";
 
     NSArray *pods = [[SPMarkdownParser shared] parse:markdown];
     
     STAssertEqualObjects(@"", pods[0][@"name"], nil);
-    STAssertEqualObjects(@"http://docs.nimbuskit.info/index.html", pods[0][@"homepage"], nil);
-    STAssertEqualObjects(@"An iOS framework whose growth is bounded by O(documentation).", pods[0][@"summary"], nil);
+    STAssertEqualObjects(@"http://arashpayan.com/blog/2009/09/07/presenting-appirater/", pods[0][@"homepage"], nil);
+    STAssertEqualObjects(@"A utility that reminds your iPhone app's users to review the app.", pods[0][@"summary"], nil);
     
-    STAssertEqualObjects(@"AFNetworking", pods[1][@"name"], nil);
+    STAssertEqualObjects(@"SVProgressHUD", pods[1][@"name"], nil);
     STAssertEqualObjects(@"", pods[1][@"homepage"], nil);
-    STAssertEqualObjects(@"A delightful iOS and OS X networking framework.", pods[1][@"summary"], nil);
+    STAssertEqualObjects(@"A clean and lightweight progress HUD for your iOS app.", pods[1][@"summary"], nil);
     
-    STAssertEqualObjects(@"JSONKit", pods[2][@"name"], nil);
-    STAssertEqualObjects(@"https://github.com/johnezang/JSONKit", pods[2][@"homepage"], nil);
+    STAssertEqualObjects(@"WCAlertView", pods[2][@"name"], nil);
+    STAssertEqualObjects(@"https://github.com/m1entus/WCAlertView", pods[2][@"homepage"], nil);
     STAssertEqualObjects(@"", pods[2][@"summary"], nil);
 }
 

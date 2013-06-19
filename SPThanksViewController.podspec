@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
   s.name         = "SPThanksViewController"
   s.version      = "0.0.1"
-  s.summary      = "Special Thanks View with Podfile"
+  s.summary      = "Special thanks view with podfile-info."
   # s.description  = <<-DESC
   #                   An optional longer description of SPThanksViewController
   #
