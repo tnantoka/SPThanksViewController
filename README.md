@@ -1,5 +1,7 @@
 # SPThanksViewController
 
+[![Build Status](https://travis-ci.org/tnantoka/SPThanksViewController.png?branch=master)](https://travis-ci.org/tnantoka/SPThanksViewController)
+
 Special thanks view with podfile-info.
 
 ![](http://tobioka.net/wp-content/uploads/2013/06/SPThanksViewController_phone1.png)
