@@ -1,16 +1,16 @@
 //
-//  SPMarkdonwParserTests.m
+//  SPMarkdownParserTests.m
 //  SPThanksViewController
 //
-//  Created by Tatsuya Tobioka on 13/06/18.
+//  Created by Tatsuya Tobioka on 13/06/19.
 //  Copyright (c) 2013年 Tatsuya Tobioka. All rights reserved.
 //
 
-#import "SPMarkdonwParserTests.h"
+#import "SPMarkdownParserTests.h"
 
 #import "SPMarkdownParser.h"
 
-@implementation SPMarkdonwParserTests
+@implementation SPMarkdownParserTests
 
 - (void)setUp
 {
@@ -35,10 +35,10 @@
     @"* [WCAlertView](https://github.com/m1entus/WCAlertView) - WCAlertView is deliverd from UIAlertView. It's support color customization and blocks.\n"
     @"* [Appirater](http://arashpayan.com/blog/2009/09/07/presenting-appirater/) - A utility that reminds your iPhone app's users to review the app.\n"
     @"* [SVProgressHUD](http://samvermette.com/199) - A clean and lightweight progress HUD for your iOS app.\n";
-        
+    
     [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"podfile-info.md" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
     NSArray *pods = [[SPMarkdownParser shared] parse:markdown];
-        
+    
     STAssertEqualObjects(@"Appirater", pods[0][@"name"], nil);
     STAssertEqualObjects(@"http://arashpayan.com/blog/2009/09/07/presenting-appirater/", pods[0][@"homepage"], nil);
     STAssertEqualObjects(@"A utility that reminds your iPhone app's users to review the app.", pods[0][@"summary"], nil);
@@ -58,7 +58,7 @@
     @"* [WCAlertView](https://github.com/m1entus/WCAlertView) - \n"
     @"* [](http://arashpayan.com/blog/2009/09/07/presenting-appirater/) - A utility that reminds your iPhone app's users to review the app.\n"
     @"* [SVProgressHUD]() - A clean and lightweight progress HUD for your iOS app.\n";
-
+    
     NSArray *pods = [[SPMarkdownParser shared] parse:markdown];
     
     STAssertEqualObjects(@"", pods[0][@"name"], nil);

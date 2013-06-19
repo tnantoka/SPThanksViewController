@@ -20,10 +20,14 @@
 		9B303E1A177047EB00C43170 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303E19177047EB00C43170 /* SenTestingKit.framework */; };
 		9B303E1B177047EB00C43170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF2177047EB00C43170 /* UIKit.framework */; };
 		9B303E1C177047EB00C43170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF4177047EB00C43170 /* Foundation.framework */; };
-		9B303E24177047EB00C43170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B303E22177047EB00C43170 /* InfoPlist.strings */; };
 		9B303E33177048D000C43170 /* SPThanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E32177048D000C43170 /* SPThanksViewController.m */; };
 		9B303E391770817100C43170 /* SPMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E381770817100C43170 /* SPMarkdownParser.m */; };
-		9B303E3C17708BBE00C43170 /* SPMarkdonwParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */; };
+		9B303EAB1771E17E00C43170 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303E19177047EB00C43170 /* SenTestingKit.framework */; };
+		9B303EAC1771E17E00C43170 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF2177047EB00C43170 /* UIKit.framework */; };
+		9B303EAD1771E17E00C43170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B303DF4177047EB00C43170 /* Foundation.framework */; };
+		9B303EB31771E17E00C43170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B303EB11771E17E00C43170 /* InfoPlist.strings */; };
+		9B303EBD1771E40D00C43170 /* SPMarkdownParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303EBC1771E40D00C43170 /* SPMarkdownParserTests.m */; };
+		9B303EBE1771E89D00C43170 /* SPMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B303E381770817100C43170 /* SPMarkdownParser.m */; };
 		C91328ADF98140EFA7224DBE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E636F12FF7C64125BDA19B10 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,14 +60,16 @@
 		9B303E0B177047EB00C43170 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 		9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPThanksViewControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B303E19177047EB00C43170 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9B303E21177047EB00C43170 /* SPThanksViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPThanksViewControllerTests-Info.plist"; sourceTree = "<group>"; };
-		9B303E23177047EB00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B303E31177048D000C43170 /* SPThanksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPThanksViewController.h; sourceTree = "<group>"; };
 		9B303E32177048D000C43170 /* SPThanksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPThanksViewController.m; sourceTree = "<group>"; };
 		9B303E371770817100C43170 /* SPMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarkdownParser.h; sourceTree = "<group>"; };
 		9B303E381770817100C43170 /* SPMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarkdownParser.m; sourceTree = "<group>"; };
-		9B303E3A17708BBE00C43170 /* SPMarkdonwParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarkdonwParserTests.h; sourceTree = "<group>"; };
-		9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarkdonwParserTests.m; sourceTree = "<group>"; };
+		9B303EAA1771E17E00C43170 /* SPThanksViewControllerLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPThanksViewControllerLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B303EB01771E17E00C43170 /* SPThanksViewControllerLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPThanksViewControllerLogicTests-Info.plist"; sourceTree = "<group>"; };
+		9B303EB21771E17E00C43170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B303EB71771E17E00C43170 /* SPThanksViewControllerLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPThanksViewControllerLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		9B303EBB1771E40D00C43170 /* SPMarkdownParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarkdownParserTests.h; sourceTree = "<group>"; };
+		9B303EBC1771E40D00C43170 /* SPMarkdownParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarkdownParserTests.m; sourceTree = "<group>"; };
 		E636F12FF7C64125BDA19B10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +95,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B303EA61771E17E00C43170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303EAB1771E17E00C43170 /* SenTestingKit.framework in Frameworks */,
+				9B303EAC1771E17E00C43170 /* UIKit.framework in Frameworks */,
+				9B303EAD1771E17E00C43170 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,7 +113,7 @@
 			children = (
 				9B303E30177048B600C43170 /* Classes */,
 				9B303DF8177047EB00C43170 /* SPThanksViewController */,
-				9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */,
+				9B303EAE1771E17E00C43170 /* SPThanksViewControllerLogicTests */,
 				9B303DF1177047EB00C43170 /* Frameworks */,
 				9B303DF0177047EB00C43170 /* Products */,
 				88B2C5BAEB4248869BB8EAB8 /* Pods.xcconfig */,
@@ -109,6 +125,7 @@
 			children = (
 				9B303DEF177047EB00C43170 /* SPThanksViewController.app */,
 				9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */,
+				9B303EAA1771E17E00C43170 /* SPThanksViewControllerLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,25 +168,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9B303E1F177047EB00C43170 /* SPThanksViewControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B303E3A17708BBE00C43170 /* SPMarkdonwParserTests.h */,
-				9B303E3B17708BBE00C43170 /* SPMarkdonwParserTests.m */,
-				9B303E20177047EB00C43170 /* Supporting Files */,
-			);
-			path = SPThanksViewControllerTests;
-			sourceTree = "<group>";
-		};
-		9B303E20177047EB00C43170 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B303E21177047EB00C43170 /* SPThanksViewControllerTests-Info.plist */,
-				9B303E22177047EB00C43170 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		9B303E30177048B600C43170 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +177,26 @@
 				9B303E381770817100C43170 /* SPMarkdownParser.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B303EAE1771E17E00C43170 /* SPThanksViewControllerLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B303EBB1771E40D00C43170 /* SPMarkdownParserTests.h */,
+				9B303EBC1771E40D00C43170 /* SPMarkdownParserTests.m */,
+				9B303EAF1771E17E00C43170 /* Supporting Files */,
+			);
+			path = SPThanksViewControllerLogicTests;
+			sourceTree = "<group>";
+		};
+		9B303EAF1771E17E00C43170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B303EB01771E17E00C43170 /* SPThanksViewControllerLogicTests-Info.plist */,
+				9B303EB11771E17E00C43170 /* InfoPlist.strings */,
+				9B303EB71771E17E00C43170 /* SPThanksViewControllerLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +240,24 @@
 			productReference = 9B303E18177047EB00C43170 /* SPThanksViewControllerTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		9B303EA91771E17E00C43170 /* SPThanksViewControllerLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B303EBA1771E17E00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewControllerLogicTests" */;
+			buildPhases = (
+				9B303EA51771E17E00C43170 /* Sources */,
+				9B303EA61771E17E00C43170 /* Frameworks */,
+				9B303EA71771E17E00C43170 /* Resources */,
+				9B303EA81771E17E00C43170 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPThanksViewControllerLogicTests;
+			productName = SPThanksViewControllerLogicTests;
+			productReference = 9B303EAA1771E17E00C43170 /* SPThanksViewControllerLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,6 +282,7 @@
 			targets = (
 				9B303DEE177047EB00C43170 /* SPThanksViewController */,
 				9B303E17177047EB00C43170 /* SPThanksViewControllerTests */,
+				9B303EA91771E17E00C43170 /* SPThanksViewControllerLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +303,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B303E24177047EB00C43170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B303EA71771E17E00C43170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303EB31771E17E00C43170 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +332,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 		};
 		9B303E16177047EB00C43170 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		9B303EA81771E17E00C43170 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B303E3C17708BBE00C43170 /* SPMarkdonwParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B303EA51771E17E00C43170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B303EBD1771E40D00C43170 /* SPMarkdownParserTests.m in Sources */,
+				9B303EBE1771E89D00C43170 /* SPMarkdownParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +421,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9B303E22177047EB00C43170 /* InfoPlist.strings */ = {
+		9B303EB11771E17E00C43170 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B303E23177047EB00C43170 /* en */,
+				9B303EB21771E17E00C43170 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -485,6 +550,36 @@
 			};
 			name = Release;
 		};
+		9B303EB81771E17E00C43170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewControllerLogicTests/SPThanksViewControllerLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewControllerLogicTests/SPThanksViewControllerLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B303EB91771E17E00C43170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPThanksViewControllerLogicTests/SPThanksViewControllerLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "SPThanksViewControllerLogicTests/SPThanksViewControllerLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +609,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9B303EBA1771E17E00C43170 /* Build configuration list for PBXNativeTarget "SPThanksViewControllerLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B303EB81771E17E00C43170 /* Debug */,
+				9B303EB91771E17E00C43170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
